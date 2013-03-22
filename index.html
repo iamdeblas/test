@@ -19,21 +19,26 @@
 
 		<script>
 
+
+
 		$(document).ready (function(){
 
-			$('#test').click(function(){
+		if (navigator.userAgent.match(/Android/i)){
+			
+
+			$('#test').on('click', (function(){
 	//window.location.href = "http://www.google.com";
 	$(this).hide();
 			//alert("working a");
 			});
 
-			$('#btest').click(function(){
+			$('#btest').on('click', (function(){
 	//window.location.href = "http://www.google.com";
 	$(this).hide();
 			//alert("working b");
 			});
 
-});
+}});
 
 
 		</script>

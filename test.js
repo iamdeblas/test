@@ -1,22 +1,22 @@
 
-$(document).ready (function(){
+//$(document).ready (function(){
 
-$('#test').click(function(){
+//$('#test').click(function(){
 	//window.location.href = "http://www.google.com";
 	//$(this).hide();
-	alert("working a");
-	});
+	//alert("working a");
+	//});
 
-$('#btest').click(function(){
+//$('#btest').click(function(){
 	//window.location.href = "http://www.google.com";
 	//$(this).hide();
-	alert("working b");
-	});
+	//alert("working b");
+	//});
 
-$('#testfield').click(function(){
+//$('#testfield').click(function(){
 	//window.location.href = "http://www.google.com";
 	//$(this).hide();
-	alert("working c");
-	});
+	//alert("working c");
+	//});
 
-}});
+//}});
