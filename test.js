@@ -1,5 +1,6 @@
+
 $(document).ready (function(){
-	
+
 $('#test').click(function(){
 	//window.location.href = "http://www.google.com";
 	//$(this).hide();
@@ -18,4 +19,4 @@ $('#testfield').click(function(){
 	alert("working c");
 	});
 
-});
+}});
